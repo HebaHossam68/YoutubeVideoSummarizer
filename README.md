@@ -49,26 +49,31 @@ An **end-to-end AI-powered YouTube video summarization system** using
 ---
 
 ## 🗂️ Project Structure
-YouTubeVideoSummarizer/
-│
-├── Model_API/
-│   ├── __init__.py
-│   ├── Call_API.py
-│   ├── Bart_Model.ipynb
-│   └── ngrok.py
+Youtube Video Summarizer/
 │
 ├── Frontend/
 │   ├── __init__.py
 │   └── app.py
 │
+├── Model_API/
+│   ├── __init__.py
+│   ├── Call_API.py
+│   ├── Bart_Model...  # ملف الموديل لو موجود
+│   └── ngrok.py
+│
+├── screenshots/
+│   ├── Instructions.png
+│   ├── summary.png
+│   └── Ui app.png
+│
 ├── Utils/
 │   ├── __init__.py
 │   └── Get_Transcription.py
 │
-├── screenshots/
-├── requirements.txt
+├── .gitignore
 ├── README.md
-└── .gitignore
+└── requirements.txt
+
 
 ---
 
@@ -88,7 +93,7 @@ pip install -r requirements.txt
 
 ## 🔑 Environment Variables
 # Create a .env file:
-API_KEY=your_api_key_here
+API_KEY=your_api_key_here 
 NGROK_URL=https://your-ngrok-url.ngrok-free.app
 
 ---
