@@ -1,5 +1,10 @@
 import streamlit as st
-from Call_API import summarize_youtube_video
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from Model_API.Call_API import summarize_youtube_video
 
 # ---------------------------
 # Page Config

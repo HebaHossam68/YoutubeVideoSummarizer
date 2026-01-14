@@ -1,8 +1,8 @@
-from Get_Transcription import get_transcription, extract_video_id
+from Utils.Get_Transcription import get_transcription, extract_video_id
 import requests
 
-API_Key="secret622"
-NGROK_URL = "https://precurrent-kaliyah-tirelessly.ngrok-free.dev"
+API_Key="YOUR_API_KEY_HERE"
+NGROK_URL = "YOUR_NGROK_URL_HERE"
 
 def summarize_youtube_video(video_url):
     # 1. get transcript
