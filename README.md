@@ -80,7 +80,7 @@ Youtube Video Summarizer/
 ---
 
 ## 📦 Installation
-git clone https://github.com/HebaHossam68/YouTubeVideoSummarizer.git
+git clone https://github.com/HebaHossam68/YouTubeVideoSummarizer.git<br>
 cd "YouTube Video Summarizer"
 
 # Create virtual environment:
