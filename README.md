@@ -49,7 +49,7 @@ An **end-to-end AI-powered YouTube video summarization system** using
 ---
 
 ## 🗂️ Project Structure
-'''text
+```text
 Youtube Video Summarizer/
 │
 ├── Frontend/
@@ -59,7 +59,7 @@ Youtube Video Summarizer/
 ├── Model_API/
 │   ├── __init__.py
 │   ├── Call_API.py
-│   ├── Bart_Model
+│   ├── Bart_Model/
 │   └── ngrok.py
 │
 ├── screenshots/
@@ -75,7 +75,7 @@ Youtube Video Summarizer/
 ├── README.md
 ├── __pycache__/
 └── requirements.txt
-
+```
 
 ---
 
