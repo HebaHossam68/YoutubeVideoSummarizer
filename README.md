@@ -85,7 +85,7 @@ cd "YouTube Video Summarizer"
 # Create virtual environment:
 python -m venv venv <br>
 venv\Scripts\activate <br>     
-source venv/bin/activate <br>   
+source venv/bin/activate   
 
 # Install dependencies:
 pip install -r requirements.txt
@@ -127,6 +127,6 @@ streamlit run Frontend/app.py
 ---
 
 ## 👩‍💻 Author
-Heba Hossam
+Heba Hossam<br>
 AI & Data Science Engineer
 
