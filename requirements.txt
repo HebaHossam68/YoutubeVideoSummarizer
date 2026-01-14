@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend
 streamlit>=1.52.2
 requests>=2.31.0
@@ -17,3 +18,24 @@ youtube-transcript-api>=0.6.1
 
 # Environment Variables
 python-dotenv>=1.0.0
+=======
+# Frontend
+streamlit>=1.52.2
+requests>=2.31.0
+
+# Backend API
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pyngrok>=7.0.0
+
+# AI / NLP
+transformers>=4.38.0
+accelerate>=0.27.0
+torch>=2.0.0
+
+# YouTube Transcript
+youtube-transcript-api>=0.6.1
+
+# Environment Variables
+python-dotenv>=1.0.0
+>>>>>>> 96614385ed1a0204c37655615703c93225cdf33c
