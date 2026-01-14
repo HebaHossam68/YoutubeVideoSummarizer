@@ -1,13 +1,6 @@
 # YouTubeVideoSummarizer
 # 🎬 YouTube Video Summarizer
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9%2B-blue" />
-  <img src="https://img.shields.io/badge/Streamlit-1.52.2-red" />
-  <img src="https://img.shields.io/badge/FastAPI-Backend-green" />
-  <img src="https://img.shields.io/badge/Transformers-HuggingFace-yellow" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
-</p>
 
 An **end-to-end AI-powered YouTube video summarization system** using  
 **FastAPI**, **Streamlit**, and **HuggingFace Transformers**.
@@ -24,23 +17,23 @@ An **end-to-end AI-powered YouTube video summarization system** using
 - [How It Works](#-how-it-works)
 - [Screenshots](#-screenshots)
 - [Author](#-author)
-- [License](#-license)
+
 
 ---
 
 ## 🚀 Features
 
-# - Summarize any YouTube video automatically
+- Summarize any YouTube video automatically
 
-# - Professional Streamlit UI (cards, tabs, gradients)
+- Professional Streamlit UI (cards, tabs, gradients)
 
-# - Copy summary with one click
+- Copy summary with one click
 
-# - REST API using FastAPI
+- REST API using FastAPI
 
-# - Secure API authentication
+- Secure API authentication
 
-# - Modular & production-ready architecture
+- Modular & production-ready architecture
 
 ---
 
@@ -75,7 +68,6 @@ YouTubeVideoSummarizer/
 ├── screenshots/
 ├── requirements.txt
 ├── README.md
-├── .env.example
 └── .gitignore
 
 ---
@@ -102,24 +94,24 @@ NGROK_URL=https://your-ngrok-url.ngrok-free.app
 ---
 
 ## ▶️ Run the Project
-# 1️⃣ Run Backend (FastAPI)
+1️⃣ Run Backend (FastAPI)
 uvicorn Model_API.ngrok:app --reload
 
-# 2️⃣ Run Frontend (Streamlit)
+2️⃣ Run Frontend (Streamlit)
 streamlit run Frontend/app.py
 
 ---
 
 ## 🧠 How It Works
-# 1- User enters a YouTube video URL
+1- User enters a YouTube video URL
 
-# 2- Transcript is extracted automatically
+2- Transcript is extracted automatically
 
-# 3- Text is sent to FastAPI backend
+3- Text is sent to FastAPI backend
 
-# 4- LLM generates a concise summary
+4- LLM generates a concise summary
 
-# 5- Summary is displayed in Streamlit UI
+5- Summary is displayed in Streamlit UI
 
 ---
 
@@ -129,6 +121,6 @@ streamlit run Frontend/app.py
 ---
 
 ## 👩‍💻 Author
-# Heba Hossam
+Heba Hossam
 AI & Data Science Engineer
 
