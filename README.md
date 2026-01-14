@@ -84,8 +84,10 @@ git clone https://github.com/HebaHossam68/YouTubeVideoSummarizer.git<br>
 cd "YouTube Video Summarizer"
 
 # Create virtual environment:
-python -m venv venv <br>
-venv\Scripts\activate <br>     
+python -m venv venv<br>
+--windows<br>
+venv\Scripts\activate<br> 
+--Linux & Mac<br>
 source venv/bin/activate   
 
 # Install dependencies:
