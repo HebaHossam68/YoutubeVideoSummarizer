@@ -49,6 +49,7 @@ An **end-to-end AI-powered YouTube video summarization system** using
 ---
 
 ## 🗂️ Project Structure
+'''text
 Youtube Video Summarizer/
 │
 ├── Frontend/
