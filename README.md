@@ -72,6 +72,7 @@ Youtube Video Summarizer/
 │
 ├── .gitignore
 ├── README.md
+├── __pycache__/
 └── requirements.txt
 
 
@@ -82,9 +83,9 @@ git clone https://github.com/HebaHossam68/YouTubeVideoSummarizer.git
 cd "YouTube Video Summarizer"
 
 # Create virtual environment:
-python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # Linux / Mac
+python -m venv venv <br>
+venv\Scripts\activate <br>     
+source venv/bin/activate <br>   
 
 # Install dependencies:
 pip install -r requirements.txt
@@ -93,7 +94,7 @@ pip install -r requirements.txt
 
 ## 🔑 Environment Variables
 # Create a .env file:
-API_KEY=your_api_key_here 
+API_KEY=your_api_key_here   
 NGROK_URL=https://your-ngrok-url.ngrok-free.app
 
 ---
