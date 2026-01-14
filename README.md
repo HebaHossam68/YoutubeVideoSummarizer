@@ -58,7 +58,7 @@ Youtube Video Summarizer/
 ├── Model_API/
 │   ├── __init__.py
 │   ├── Call_API.py
-│   ├── Bart_Model...  # ملف الموديل لو موجود
+│   ├── Bart_Model
 │   └── ngrok.py
 │
 ├── screenshots/
